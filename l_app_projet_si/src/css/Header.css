@@ -1,0 +1,45 @@
+header {
+	background-color: #fbdc2c;
+}
+
+#bloc-jaune {
+	display: flex;
+	justify-content: space-between;
+	padding-left: 2vw;
+	padding-right: 2vw;
+}
+
+#bloc-noir {
+	height: 5vh;
+	background-color: #1e1613;
+}
+
+#bloc-logo {
+	display: flex;
+	align-items: center;
+}
+
+#bloc-logo img {
+	width: 10vw;
+}
+
+#bloc-logo h1{
+	margin: auto;
+	padding: 0;
+	font-size: 3vw;
+	color: #F21B3F;
+}
+
+#bloc-liens-externes {
+	margin-top: auto;
+	margin-bottom: auto;
+	display: flex;
+	gap:2vw;
+}
+
+#bloc-liens-externes img, #bloc-liens-externes a {
+	display: block;
+	width: 2vw;
+}
+
+

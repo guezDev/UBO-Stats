@@ -1,0 +1,88 @@
+main {
+	display: flex;
+}
+
+#gauche {
+	width: 30vw;
+	height: 100vh;
+	border-right: 2px solid gray;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#droite {
+	width: 70vw;
+}
+
+h2 {
+	text-align: center;
+}
+
+#bloc-bouton {
+	display: flex;
+	justify-content: center;
+	width: 28vw;
+	margin-bottom: 1vh;
+}
+
+#bouton-supp-tout {
+	margin-right: 1vw;
+}
+#bouton-ajouter {
+	margin-left: 1vw;
+}
+
+.bouton-supp {
+	margin-left: 2vw;
+}
+
+#gauche ul {
+	margin-left: -2vw;
+}
+
+#gauche li {
+	display: flex;
+	align-items: center;
+	border-top: 1px solid black;
+	min-height: 7vh;
+}
+
+.span-liste-formation {
+	display: block;
+	width: 22vw;
+}
+
+#bloc-select-choix-annee {
+	display: flex;
+	justify-content: center;
+	gap: 1vw;
+}
+
+#bloc-choix-annee select{
+	width: 8vw;
+	height: 7vh;
+	font-size: 1vw;
+}
+
+#bloc-effectif {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 3vh;
+}
+
+#bloc-boutons-effectifs {
+	display: flex;
+	justify-content: center;
+	gap:1vw;
+}
+
+#bloc-boutons-effectifs img {
+	width: 1vw;
+}
+
+#bar, #line {
+	width: 50vw;
+	max-height: 30vw;
+}
